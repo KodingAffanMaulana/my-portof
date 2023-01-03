@@ -4,10 +4,7 @@ import sma from '../images/sma.jpeg'
 import sd from '../images/sd.jpeg'
 import smp from '../images/smp.jpg'
 
-import { HStack, Box, Center } from "@chakra-ui/react";
-
-import { Link } from '@chakra-ui/react'
-
+import { Box } from "@chakra-ui/react";
 
 const Education = () => {
     return (
