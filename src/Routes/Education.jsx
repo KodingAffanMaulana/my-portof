@@ -11,7 +11,7 @@ const Education = () => {
         <main className="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:p-16">
             <div className="drop-shadow-2xl">
                 <section id="education" class="px-8 pb-8 sm:px-16 sm:pb-8 bg-white">
-                    <h1 class="font-bold text-[16px] sm:text-2xl text-lime-700 pt-6 pb-1 sm:pb-3">Edukasi</h1>
+                    <h1 class="font-bold text-[16px] sm:text-2xl text-lime-1000 pt-6 pb-1 sm:pb-3">Riwayat Pendidikan</h1><br />
                     <div class="sm:flex-col md:flex-col lg:flex-row flex flex-col gap-[10%]">
                         <article>
                             <Box w='100%' h='150px'>
