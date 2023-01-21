@@ -14,7 +14,7 @@ const About = () => {
                                         berasal dari Lampung dan saat ini bertempat tinggal di Bandarlampung. Saya sekarang sedang menempuh pendidikan S1 Teknik Informatika pada salah satu Univeristas Impian saya sejak kecil
                                         yaitu Universitas Lampung. Saya saat ini sedang berkecimpung dibidang Frontend Web Developer.</p>
                                     {/* <Image src={rg} alt="sma" width="500px" /> */}
-                                    <h2 class="font-bold text-yellow-800 text-[10px] sm:text-[18px]">Kemampuan yang dimiliki</h2>
+                                    <h2 class="font-bold text-yellow-800 text-[10px] sm:text-[18px] sm:font-medium">Kemampuan yang dimiliki</h2>
                                     <ul class="list-disc list-inside text-yellow-700" >
                                         <li>HTML</li>
                                         <li>CSS</li>
