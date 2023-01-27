@@ -7,6 +7,7 @@ import About from './Routes/About';
 import Education from './Routes/Education';
 import NotFound from './Routes/NotFound';
 import Home from './Routes/Home';
+import Certificate from './Routes/Certificate';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/about" element={<About />}/>
         <Route path="/project" element={<Project />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/certificate" element={<Certificate />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

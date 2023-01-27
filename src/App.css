@@ -5,9 +5,14 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .gambar {
   object-fit: cover;
 }
+
 /* .navbar {
   display: flex;
   width: 100vw;

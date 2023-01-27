@@ -6,8 +6,9 @@ const navigation = [
     { name: 'Affan Maulana', href: '/', current: true },
     { name: 'About', href: '/about', current: false },
     { name: 'Experience', href: '/experience', current: false },
-    { name: 'Projects', href: '/project', current: false },
     { name: 'Education', href: '/education', current: false },
+    { name: 'Projects', href: '/project', current: false },
+    { name: 'Certificate', href: '/certificate', current: false },
 ]
 
 function classNames(...classes) {

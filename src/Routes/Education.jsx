@@ -17,29 +17,35 @@ const Education = () => {
                             <Box w='100%'>
                                 <img src={unila} alt="unila" style={{"object-fit": "cover"}}/>
                             </Box>
-                            <h2 class="font-bold text-[13px] sm:text-xl">Universitas Lampung</h2>
-                            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">(2020 - Sekarang)</p>
+                            <h2 class="font-bold text-[13px] sm:text-xl text-center p-1 sm:p-4">Universitas Lampung</h2>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium">Teknik Informatika</p>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium">IPK 3.88</p>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">2020 - Sekarang</p>
                         </article><br />
                         <article>
                             <Box w='100%'>
-                                <Image src={sma} alt="sma" style={{"object-fit": "cover"}}/>
+                                <Image rounded={"2xl"} src={sma} alt="sma" style={{"object-fit": "cover"}}/>
                             </Box>
-                            <h2 class="font-bold text-[13px] sm:text-xl">SMA YP UNILA</h2>
-                            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">(2017 - 2020)</p>
+                            <h2 class="font-bold text-[13px] sm:text-xl text-center p-1 sm:p-4">SMA YP UNILA</h2>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium">MIPA</p>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium">Average Report 88 (Rank 7)</p>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">2017 - 2020</p>
                         </article><br />
                         <article>
                             <Box w='100%'>
                                 <Image src={smp} alt="unila" className="gambar"/>
                             </Box>
-                            <h2 class="font-bold text-[13px] sm:text-xl">SMPN 02 Penawartama</h2>
-                            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">(2014 - 2017)</p>
+                            <h2 class="font-bold text-[13px] sm:text-xl text-center p-1 sm:p-4">SMPN 02 Penawartama</h2>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium ">IPA</p>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium ">General champion</p>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">2014 - 2017</p>
                         </article><br />
                         <article>
                             <Box w='100%'>
                                 <Image src={sd} alt="unila" className="gambar"/>
                             </Box>
-                            <h2 class="font-bold text-[13px] sm:text-xl">SDN 01 Bogatama</h2>
-                            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">(2008 - 2014)</p>
+                            <h2 class="font-bold text-[13px] sm:text-xl text-center p-1 sm:p-4">SDN 01 Bogatama</h2>
+                            <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">2008 - 2014</p>
                         </article>
                     </div>
                 </section>
