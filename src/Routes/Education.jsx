@@ -15,7 +15,7 @@ const Education = () => {
                     <div class="sm:flex-col lg:text-[2px] md:flex-col lg:flex-row flex flex-col gap-[2%]">
                         <article>
                             <Box w='100%'>
-                                <img src={unila} alt="unila" style={{"object-fit": "cover"}}/>
+                                <img rounded={"2xl"} src={unila} alt="unila" style={{"object-fit": "cover"}}/>
                             </Box>
                             <h2 class="font-bold text-[13px] sm:text-xl text-center p-1 sm:p-4">Universitas Lampung</h2>
                             <p class="text-[10px] sm:text-[18px] sm:font-medium">Teknik Informatika</p>
@@ -33,7 +33,7 @@ const Education = () => {
                         </article><br />
                         <article>
                             <Box w='100%'>
-                                <Image src={smp} alt="unila" className="gambar"/>
+                                <Image rounded={"2xl"} src={smp} alt="unila" className="gambar"/>
                             </Box>
                             <h2 class="font-bold text-[13px] sm:text-xl text-center p-1 sm:p-4">SMPN 02 Penawartama</h2>
                             <p class="text-[10px] sm:text-[18px] sm:font-medium ">IPA</p>
@@ -42,7 +42,7 @@ const Education = () => {
                         </article><br />
                         <article>
                             <Box w='100%'>
-                                <Image src={sd} alt="unila" className="gambar"/>
+                                <Image rounded={"2xl"} src={sd} alt="unila" className="gambar"/>
                             </Box>
                             <h2 class="font-bold text-[13px] sm:text-xl text-center p-1 sm:p-4">SDN 01 Bogatama</h2>
                             <p class="text-[10px] sm:text-[18px] sm:font-medium pb-2">2008 - 2014</p>
