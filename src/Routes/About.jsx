@@ -35,7 +35,7 @@ function About() {
                 <li>Microsoft Office</li>
                 <li>Editing Video Kinemaster</li>
             </ul> */}
-                                    <List spacing={3} class="text-[10px] sm:text-[18px]">
+                                    <List spacing={3} class="text-[10px] lg:text-[18px]">
                                         <ListItem>
                                             <ListIcon as={AiFillHtml5} color='red.500' />
                                             HTML (Hyper Text Markup Language)
