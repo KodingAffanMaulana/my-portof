@@ -15,7 +15,7 @@ const Education = () => {
                     <div class="sm:flex-col lg:text-[2px] md:flex-col lg:flex-row flex flex-col gap-[2%]">
                         <article>
                             <Box w='100%'>
-                                <img rounded={"2xl"} src={unila} alt="unila" style={{"object-fit": "cover"}}/>
+                                <Image rounded={"2xl"} src={unila} alt="unila" style={{"object-fit": "cover"}}/>
                             </Box>
                             <h2 class="font-bold text-[13px] sm:text-xl text-center p-1 sm:p-4">Universitas Lampung</h2>
                             <p class="text-[10px] sm:text-[18px] sm:font-medium">Teknik Informatika</p>
