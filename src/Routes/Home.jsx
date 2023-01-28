@@ -14,7 +14,7 @@ const Home = () => {
                         </div>
                     </div>
                     <h1 className="font-bold text-[20px] sm:text-[45px] text-lime-50 pb-2 text-center">I'm Affan Maulana</h1>
-                    <p className="text-[10px] sm:text-xl sm:font-medium text-white pb-8">
+                    <p className="text-[10px] sm:text-xl sm:font-medium text-white pb-8 text-justify">
                         Saya adalah mahasiswa S1 Teknik Informatika yang saat ini
                         sedang menjalani pendidikan di Universitas Lampung. Saya memiliki ketertarikan pada bidang Frontend Web Developer
                     </p>

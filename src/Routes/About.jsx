@@ -16,26 +16,11 @@ function About() {
                         <Center>
                             <div>
                                 <article>
-                                    <p class="text-yellow-800 text-[10px] sm:text-[18px] sm:font-medium pb-4 text-justify">Hola, saya Affan Maulana seorang yang memiliki cita-cita untuk memajukan IT di daerah saya yaitu Bogatama. Saya
+                                    <p class="text-yellow-900 text-[12px] sm:text-[18px] sm:font-medium pb-4 text-justify">Hola, saya Affan Maulana seorang yang memiliki cita-cita untuk memajukan IT di daerah saya yaitu Bogatama. Saya
                                         berasal dari Lampung dan saat ini bertempat tinggal di Bandarlampung. Saya sekarang sedang menempuh pendidikan S1 Teknik Informatika pada salah satu Universitas impian saya sejak kecil
                                         yaitu Universitas Lampung. Saya saat ini sedang berkecimpung dibidang Frontend Web Developer.</p>
-                                    {/* <Image src={rg} alt="sma" width="500px" /> */}
                                     <h1 class="font-bold text-green-900 text-[12px] sm:text-[18px]">Skills</h1>
-                                    {/* <ul class="list-disc list-inside text-yellow-700 text-[10px] sm:text-[18px] sm:font-medium">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>ReactJS</li>
-                <li>NodeJS</li>
-                <li>Web API, RESTful API</li>
-                <li>Software Engineering Git/Github/Hosting</li>
-                <li>DMBS MYSQL</li>
-                <li>Deployment Github Pages/Netlify/Hosting</li>
-                <li>Editing Canva</li>
-                <li>Microsoft Office</li>
-                <li>Editing Video Kinemaster</li>
-            </ul> */}
-                                    <List spacing={3} class="text-[10px] lg:text-[18px]">
+                                    <List spacing={3} class="text-[12px] sm:text-[18px]">
                                         <ListItem>
                                             <ListIcon as={AiFillHtml5} color='red.500' />
                                             HTML (Hyper Text Markup Language)
