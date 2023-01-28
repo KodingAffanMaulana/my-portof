@@ -16,11 +16,11 @@ function About() {
                         <Center>
                             <div>
                                 <article>
-                                    <p class="text-yellow-900 text-[12px] sm:text-[18px] sm:font-medium pb-4 text-justify">Hola, saya Affan Maulana seorang yang memiliki cita-cita untuk memajukan IT di daerah saya yaitu Bogatama. Saya
+                                    <p class="text-yellow-900 text-[13px] sm:text-[18px] sm:font-medium pb-4 text-justify">Hola, saya Affan Maulana seorang yang memiliki cita-cita untuk memajukan IT di daerah saya yaitu Bogatama. Saya
                                         berasal dari Lampung dan saat ini bertempat tinggal di Bandarlampung. Saya sekarang sedang menempuh pendidikan S1 Teknik Informatika pada salah satu Universitas impian saya sejak kecil
                                         yaitu Universitas Lampung. Saya saat ini sedang berkecimpung dibidang Frontend Web Developer.</p>
-                                    <h1 class="font-bold text-green-900 text-[12px] sm:text-[18px]">Skills</h1>
-                                    <List spacing={3} class="text-[12px] sm:text-[18px]">
+                                    <h1 class="font-bold text-green-900 text-[14px] sm:text-[18px] pb-2">Skills</h1>
+                                    <List spacing={1} fontSize={{ base: '13px', sm: '16px', md: '16px', lg: '18px' }}>
                                         <ListItem>
                                             <ListIcon as={AiFillHtml5} color='red.500' />
                                             HTML (Hyper Text Markup Language)
