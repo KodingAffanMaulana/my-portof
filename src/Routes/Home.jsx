@@ -5,7 +5,7 @@ import { Link } from '@chakra-ui/react'
 
 const Home = () => {
     return (
-        <main className="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:p-16">
+        <main className="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:p-6">
             <div className="drop-shadow-2xl">
                 <section id="personal-info" className="p-8 lg:p-16 bg-gradient-to-tr from-[#4ECDC4] to-[#7bace1] rounded-[24px]">
                     <div class="grid place-content-center pb-16">

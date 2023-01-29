@@ -12,9 +12,9 @@ import Certificate from './Routes/Certificate';
 function App() {
   return (
     <>
-      <div>
-        <Navbar></Navbar>
-      </div>
+      {/* <div> */}
+      <Navbar />
+      {/* </div> */}
 
       <Routes>
         <Route path="/" element={<Home />} />

@@ -13,13 +13,17 @@ import book from "../images/book.jpg"
 import liburan from "../images/liburan.jpg"
 import bdg from "../images/bdg.jpg"
 
+import { VscSymbolNamespace } from "react-icons/vsc"
 const Project = () => {
     return (
         <>
-            <main className="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:p-16">
+            <main className="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:p-6">
                 <div className="drop-shadow-2xl">
-                    <section id="project" class="p-8 lg:p-16 bg-white">
-                        <h1 class="font-bold text-[16px] sm:text-2xl text-lime-1000 pb-1 sm:pb-3">My Project</h1><br />
+                    <section id="project" class="p-8 lg:px-[10rem] lg:pb-16 bg-white">
+                        <div class="flex flex-col items-center justify-center text-center">
+                            <VscSymbolNamespace size="4rem" rounded="50%" className='grayscale' />
+                            <h1 class="font-bold text-[16px] sm:text-2xl text-blue-900 p-2 sm:p-3 sm:pb-8">Project</h1><br />
+                        </div>
                         <div class="sm:flex-col md:flex-col lg:flex-row flex-col gap-[10%] pb-8">
                             <article class="pb-4 lg:pb-8">
                                 <h2 class="font-bold text-[13px] sm:text-xl">Website Galeri Photo</h2>
@@ -68,7 +72,7 @@ const Project = () => {
                 <br />
 
                 <div className="drop-shadow-2xl">
-                    <section id="education" class="p-8 lg:p-16 bg-white">
+                    <section id="education" class="p-8 lg:px-[10rem] lg:py-16  bg-white">
                         <h1 class="font-bold text-[14px] sm:text-2xl text-lime-800 pb-1 sm:pb-3">Web Statis</h1>
                         <div class="sm:flex-col md:f8lex-col lg:flex-row flex-col gap-[10%]">
                             <article class="pb-4 lg:pb-8">

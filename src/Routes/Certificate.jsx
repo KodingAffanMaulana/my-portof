@@ -14,15 +14,17 @@ import djs from "../images/certificate/djs.jpg"
 import dfront from "../images/certificate/dfront.jpg"
 import dweb from "../images/certificate/dweb.jpg"
 
-
+import { FiAward } from 'react-icons/fi'
 
 const Certificate = () => {
     return (
-        <main className="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:p-16">
+        <main className="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:p-6">
             <div className="drop-shadow-2xl">
-                <section id="education" class="p-8 lg:p-16 bg-white">
-                    <h1 class="font-bold text-[16px] sm:text-2xl text-lime-1000 p-[0]">Certificate</h1><br />
-
+                <section id="education" class="p-8 lg:p-8 bg-white">
+                    <div class="flex flex-col items-center justify-center text-center">
+                            <FiAward size="4rem" rounded="50%" className='grayscale' />
+                            <h1 class="font-bold text-[16px] sm:text-2xl text-blue-900 p-2 sm:p-3 sm:pb-8">Certificate</h1><br />
+                        </div>
                     <div class="bg-blue-50 p-2 lg:p-4 rounded-[15px]">
                         <h1 class="font-bold text-[16px] sm:text-2xl text-gray-700 pb-3 sm:pb-5 text-center">Ruangguru CAMP</h1>
                         <div class="grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 grid gap-6">

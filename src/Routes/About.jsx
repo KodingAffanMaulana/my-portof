@@ -1,4 +1,4 @@
-import { Center, List, ListItem, ListIcon } from '@chakra-ui/react';
+import { Center, List, ListItem, ListIcon, Image } from '@chakra-ui/react';
 
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3Full } from "react-icons/di";
@@ -9,17 +9,20 @@ import { BsCloudDownload } from "react-icons/bs";
 function About() {
     return (
         <>
-            <main className="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:p-16">
+            <main className="main bg-gradient-to-tr from-[gray-900] to-[#00ffcc] p-4 sm:p-6">
                 <div className="drop-shadow-2xl">
-                    <section id="about" class="p-8 lg:p-16 bg-white rounded-[2rem]">
-                        <h1 class="font-bold text-[16px] sm:text-2xl text-lime-1000">About Me</h1><br />
+                    <section id="about" class="p-8 lg:px-[10rem] lg:pb-16 bg-white rounded-[2rem]">
+                        <div class="flex flex-col items-center justify-center text-center">
+                            <Image src='https://media.licdn.com/dms/image/C5603AQHO4bbGxD3NbQ/profile-displayphoto-shrink_800_800/0/1654271685186?e=1678320000&v=beta&t=s44UjDF5yNQQXYdO160i7vNd3jlhPlUu0VqfE5WNyB4' alt="Education" width="4rem" rounded="50%" className='grayscale'></Image>
+                            <h1 class="font-bold text-[16px] sm:text-2xl text-blue-900 p-2 sm:p-3 sm:pb-4">About Me</h1>
+                        </div>
                         <Center>
                             <div>
                                 <article>
-                                    <p class="text-yellow-900 text-[13px] sm:text-[18px] sm:font-medium pb-4 text-justify">Hola, saya Affan Maulana seorang yang memiliki cita-cita untuk memajukan IT di daerah saya yaitu Bogatama. Saya
+                                    <p class="text-[13px] sm:text-[18px] sm:font-medium pb-4 text-justify">Hola, saya Affan Maulana seorang yang memiliki cita-cita untuk memajukan IT di daerah saya yaitu Bogatama. Saya
                                         berasal dari Lampung dan saat ini bertempat tinggal di Bandarlampung. Saya sekarang sedang menempuh pendidikan S1 Teknik Informatika pada salah satu Universitas impian saya sejak kecil
                                         yaitu Universitas Lampung. Saya saat ini sedang berkecimpung dibidang Frontend Web Developer.</p>
-                                    <h1 class="font-bold text-green-900 text-[14px] sm:text-[18px] pb-2">Skills</h1>
+                                    <h1 class="font-bold text-blue-900 text-[14px] sm:text-[18px] pb-2">Skills</h1>
                                     <List spacing={1} fontSize={{ base: '13px', sm: '16px', md: '16px', lg: '18px' }}>
                                         <ListItem>
                                             <ListIcon as={AiFillHtml5} color='red.500' />
