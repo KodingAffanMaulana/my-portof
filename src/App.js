@@ -12,30 +12,21 @@ import Certificate from './Routes/Certificate';
 function App() {
   return (
     <>
-      {/* <div className="navbar">
-      <div className='navbar1'>
-        Affan Maulana
-      </div>
-      <div className='navbar2'>
-      <Link to='/'>Home</Link>
-      <Link to='/photos'>My Photos</Link>
-      <Link to='/add'>Add Photo</Link>
-      </div> */}
       <div>
         <Navbar></Navbar>
       </div>
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/experience" element={<Experience />}/>
-        <Route path="/about" element={<About />}/>
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/about" element={<About />} />
         <Route path="/project" element={<Project />} />
         <Route path="/education" element={<Education />} />
         <Route path="/certificate" element={<Certificate />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
-    )
+  )
 }
 
 export default App;
